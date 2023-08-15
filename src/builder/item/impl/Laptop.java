@@ -14,4 +14,11 @@ public class Laptop implements Item {
     public Characteristic getCharacteristic() {
         return characteristic;
     }
+
+    @Override
+    public String toString() {
+        return "Laptop{" +
+                "characteristic=" + characteristic +
+                '}';
+    }
 }

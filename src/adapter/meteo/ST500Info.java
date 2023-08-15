@@ -2,7 +2,7 @@ package adapter.meteo;
 
 import java.time.*;
 
-class ST500Info {
+class ST500Info  {
     public SensorTemperature getData() {
         return new SensorTemperature() {
             public int identifier() {
